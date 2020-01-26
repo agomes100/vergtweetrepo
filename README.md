@@ -13,3 +13,8 @@ https://aws.amazon.com/pt/blogs/compute/building-an-aws-iot-core-device-using-aw
 
 AWS Monitor: https://us-east-2.console.aws.amazon.com/iot/home?region=us-east-2#/dashboard
 
+
+Now, test 
+ESP32_AWS_IoT - seems to be the most complete to use specific user on eduroam
+
+ESP32_WPA2enterprise - this is a second option
