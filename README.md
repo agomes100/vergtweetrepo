@@ -18,3 +18,10 @@ Now, test
 ESP32_AWS_IoT - seems to be the most complete to use specific user on eduroam
 
 ESP32_WPA2enterprise - this is a second option
+
+
+
+---Acrylic 
+https://www.inventables.com/technologies/lucite-light-guide-acrylic-sheet
+
+
