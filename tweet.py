@@ -19,8 +19,11 @@ OAUTH_TOKEN_SECRET = 'nBBRHsz2ZnHh4sABtQeOQ7FNWs5KIgXkH9ssIueii4HBJ'
 class BlinkyStreamer(TwythonStreamer):
         def on_success(self, data):
                 if 'text' in data:
-                        print (data['text'].encode('utf-8'))
-#                        requests.post('https://xxxx',json="text":"Hello World!")
+                        msg = (data['text'].encode('utf-8'))
+                        msg2 = data['text']
+                        print (msg)
+                        payload = {'sensor':msg2}
+                        requests.post('https://t9phi67w2b.execute-api.us-east-2.amazonaws.com/Prod/publish',json=payload)
 #                        print
  #                       GPIO.output(LED, GPIO.HIGH)
  #                       time.sleep(0.5)
